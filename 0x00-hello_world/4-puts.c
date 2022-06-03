@@ -12,11 +12,11 @@ int main(void)
 
 {
 
-		char test_str[] = "\"Programming is like building a multilingual puzzle";
+		char q4-test[] = "\"Programming is like building a multilingual puzzle";
 
 
 
-			puts(test_str);
+			puts(q4-test);
 
 				return (0);
 
