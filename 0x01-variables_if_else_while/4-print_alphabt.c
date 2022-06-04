@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Prints the alphabet except the letters q and e.
  * without using char or printf/puts,and putchar 2x max.
 (*
