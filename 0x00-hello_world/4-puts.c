@@ -1,23 +1,12 @@
-#!/bin/bash
 #include <stdio.h>
-
-
 /**
+ * main - returns what is entered
  *
- *  * main - Entry point
- *
- *     */
-
+ * Return 0 on success   
+ */
 int main(void)
-
 {
-
-		char q4-test[] = "\"Programming is like building a multilingual puzzle";
-
-
-
-			puts(q4-test);
-
-				return (0);
-
+	char q4-test[] = "\"Programming is like building a multilingual puzzle";
+	puts(q4-test);
+	return (0);
 }
