@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
  * main -return the size of data types
+ * Warnings are allowed
 (*
  * Return 0 on succes
  */
