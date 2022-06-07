@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include"main.h"
 /**
  * the program returns lowercase alphabets ascendingly
  * allowed to use _putchar 2X maximum
