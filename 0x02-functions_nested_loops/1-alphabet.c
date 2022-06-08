@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 /**
  * the program returns lowercase alphabets ascendingly
  * allowed to use _putchar 2X maximum
@@ -7,12 +7,12 @@
  */
 void print_alphabet(void)
 {
-	char letter;
+	char ch;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	
-		_putchar(letter);
-	
-	_putchar("\n");
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		_putchar(ch);
+	}
+	_putchar('\n');
 }
 
