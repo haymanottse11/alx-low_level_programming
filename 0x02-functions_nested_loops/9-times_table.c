@@ -27,13 +27,13 @@ void times_table(void)
 				 _putchar(',');
 			}
 			else
-			 {
-				 _putchar(' ');
+			{
+			       	_putchar(' ');
 
-				 prod = mult * n;
-
-				 if (prod <= 9)
-					 _putchar(' ');
+				prod = mult * n;
+			       
+				if (prod <= 9)
+				       	_putchar(' ');
 				 else
 					 _putchar((prod / 10) + '0');
 
