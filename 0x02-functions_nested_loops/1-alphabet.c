@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"main.h"
 /**
  * the program returns lowercase alphabets ascendingly
@@ -15,7 +14,7 @@ void print_alphabet(void)
 		_putchar(c);
 		c++;
 	}
-	_putchar("/n")
+	_putchar("/n");
 }
 
 int main(void)
