@@ -15,7 +15,6 @@ void times_table(void)
 			_putchar(' ');
 
 			prod = mult * n;
-			_putchar(',');
 
 			if (prod <= 9)
 				_putchar(' ');
@@ -23,6 +22,7 @@ void times_table(void)
 				_putchar((prod / 10) + '0');
 
 			 _putchar((prod % 10) + '0');
+			 _putchar(',');
 		}
 		_putchar('\n');
 	}
