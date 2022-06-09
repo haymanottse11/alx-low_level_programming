@@ -4,7 +4,7 @@
  * @x: The first integer to be added.
  * @y: The first integer to be added.
  *
- * return - the sum of the numbers
+ * Return: The result of the addition.
  */
 int add(int x, int y)
 {
