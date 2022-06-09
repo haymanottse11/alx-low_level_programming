@@ -1,14 +1,12 @@
-#include "main.h"   
+#include "main.h"
 /**
- * print_alphabet_x10 = prints 10 times the alphabet, in lowercase
- * allwed to use _putchar 2x maximum
-(*
- *return 0 on success
+ * print_alphabet_x10 -prints 10 times the alphabet, in lowercase
+ * allowed to use _putchar 2x maximum
  */
 void print_alphabet_x10(void)
 {
 	int i = 0;
-	char ch;  
+	char ch;
 
 	while (i++ <= 9)
 	{

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * the program returns lowercase alphabets ascendingly
+ * print_alphabet -prints the alphabet, in lowercase, followed by a new line
  * allowed to use _putchar 2X maximum
 (*
  * return 0 on success

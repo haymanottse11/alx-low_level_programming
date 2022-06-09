@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - entry value
+ * main - that prints _putchar, followed by a new line
  * allowed to use printf or puts
 (*
  * Return 0 on success

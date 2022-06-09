@@ -1,12 +1,15 @@
 #include "main.h"
 /**
- * print_sign(int n) function prints + and returns 1 if n is positive
- * ,prints 0 and return 0 if n is zero, and
- * prints - and return -1 if n is negative.
+ * print_sign -prints the sign of a number.
+ * @n: The number of which the sign will be printed.
+ *
+ * Return 1 if the number is greater than zero,
+ *        0 if n is zero, and
+ *       -1 if n is negative.
  */
 int print_sign(int n)
 {
-	if (n>0)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
