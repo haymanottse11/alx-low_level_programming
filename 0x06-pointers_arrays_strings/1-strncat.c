@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strncat - a function that concatenates two strings.
- *            except that src does not need to be null-terminated 
+ *            except that src does not need to be null-terminated
  *            if it contains n or more bytes.
  * @dest: The string to be appended upon.
  * @src: The string to be appended to dest.
