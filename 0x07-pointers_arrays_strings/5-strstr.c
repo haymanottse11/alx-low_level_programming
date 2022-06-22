@@ -7,7 +7,7 @@
  * Return: If the substring is located - a pointer to the beginning
  *         If the substring is not located - NULL.
  */
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
 {
 	int index;
 
@@ -18,11 +18,11 @@ char *_strstr(char *haystack, char *needle);
 		index = 0;
 		if (haystack[index] == needle[index])
 		{
-			do{
+			do {
 				if (needle[index + 1] == '\0')
 					return (haystack);
 				index++;
-			}while (haystack[index] == needle[index]);
+			} while (haystack[index] == needle[index]);
 		}
 		haystack++;
 	}
